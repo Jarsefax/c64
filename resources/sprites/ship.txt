@@ -1,0 +1,75 @@
+
+// 6 sprites generated with spritemate on 3/5/2022, 1:04:27 AM
+// Byte 64 of each sprite contains multicolor (high nibble) & color (low nibble) information
+
+LDA #$08 // sprite multicolor 1
+STA $D025
+LDA #$06 // sprite multicolor 2
+STA $D026
+
+
+// sprite 0 / singlecolor / color: $07
+sprite_0_1:
+.byte $0f,$00,$00,$1f,$80,$00,$3f,$c0
+.byte $00,$7b,$e0,$00,$f0,$f0,$00,$fb
+.byte $fe,$00,$ff,$ff,$80,$ff,$ff,$e0
+.byte $ff,$ff,$f8,$3f,$7f,$fc,$0e,$1f
+.byte $ff,$3f,$7f,$fc,$ff,$ff,$f8,$ff
+.byte $ff,$e0,$ff,$ff,$80,$fb,$fe,$00
+.byte $f0,$f0,$00,$7b,$e0,$00,$3f,$c0
+.byte $00,$1f,$80,$00,$0f,$00,$00,$07
+
+// sprite 1 / singlecolor / color: $07
+sprite_0_2:
+.byte $0f,$00,$00,$1f,$80,$00,$3f,$c0
+.byte $00,$7b,$e0,$00,$f0,$f1,$e0,$fb
+.byte $fb,$fc,$ff,$ff,$fe,$ff,$ff,$fc
+.byte $ff,$ff,$e0,$3f,$7f,$00,$0e,$18
+.byte $00,$3f,$7f,$00,$ff,$ff,$e0,$ff
+.byte $ff,$fc,$ff,$ff,$fe,$fb,$fb,$fc
+.byte $f0,$f1,$e0,$7b,$e0,$00,$3f,$c0
+.byte $00,$1f,$80,$00,$0f,$00,$00,$07
+
+// sprite 2 / singlecolor / color: $07
+sprite_0_3:
+.byte $0f,$00,$00,$1f,$80,$70,$3f,$c0
+.byte $f8,$7b,$e1,$f0,$f0,$f3,$e0,$fb
+.byte $ff,$c0,$ff,$ff,$80,$ff,$ff,$00
+.byte $ff,$fe,$00,$3f,$7c,$00,$0e,$18
+.byte $00,$3f,$7c,$00,$ff,$fe,$00,$ff
+.byte $ff,$00,$ff,$ff,$80,$fb,$ff,$c0
+.byte $f0,$f3,$e0,$7b,$e1,$f0,$3f,$c0
+.byte $f8,$1f,$80,$70,$0f,$00,$00,$07
+
+// sprite 3 / singlecolor / color: $07
+sprite_1_1:
+.byte $00,$00,$f0,$00,$01,$f8,$00,$03
+.byte $fc,$00,$07,$de,$00,$0f,$0f,$00
+.byte $7f,$df,$01,$ff,$ff,$07,$ff,$ff
+.byte $1f,$ff,$ff,$3f,$fe,$fc,$ff,$f8
+.byte $70,$3f,$fe,$fc,$1f,$ff,$ff,$07
+.byte $ff,$ff,$01,$ff,$ff,$00,$7f,$df
+.byte $00,$0f,$0f,$00,$07,$de,$00,$03
+.byte $fc,$00,$01,$f8,$00,$00,$f0,$07
+
+// sprite 4 / singlecolor / color: $07
+sprite_1_2:
+.byte $00,$00,$f0,$00,$01,$f8,$00,$03
+.byte $fc,$00,$07,$de,$07,$8f,$0f,$3f
+.byte $df,$df,$7f,$ff,$ff,$3f,$ff,$ff
+.byte $07,$ff,$ff,$00,$fe,$fc,$00,$18
+.byte $70,$00,$fe,$fc,$07,$ff,$ff,$3f
+.byte $ff,$ff,$7f,$ff,$ff,$3f,$df,$df
+.byte $07,$8f,$0f,$00,$07,$de,$00,$03
+.byte $fc,$00,$01,$f8,$00,$00,$f0,$07
+
+// sprite 5 / singlecolor / color: $07
+sprite_1_3:
+.byte $00,$00,$f0,$0e,$01,$f8,$1f,$03
+.byte $fc,$0f,$87,$de,$07,$cf,$0f,$03
+.byte $ff,$df,$01,$ff,$ff,$00,$ff,$ff
+.byte $00,$7f,$ff,$00,$3e,$fc,$00,$18
+.byte $70,$00,$3e,$fc,$00,$7f,$ff,$00
+.byte $ff,$ff,$01,$ff,$ff,$03,$ff,$df
+.byte $07,$cf,$0f,$0f,$87,$de,$1f,$03
+.byte $fc,$0e,$01,$f8,$00,$00,$f0,$07
